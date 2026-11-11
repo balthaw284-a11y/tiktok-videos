@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
+      "Bash(pip install:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(ls:*)",
+      "Bash(rm -f prev_*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git fetch:*)",
+      "Bash(git status:*)",
+      "Bash(git -C:*)",
+      "Bash(git clone:*)",
+      "Bash(curl -sS -I:*)",
+      "Bash(TZ=Europe/Paris date:*)",
+      "mcp__Speko__audio_synthesize",
+      "mcp__Speko__audio_transcribe",
+      "mcp__Gmail__send_message",
+      "mcp__Metricool_Social_Media_Management__getBrandSettings",
+      "mcp__Metricool_Social_Media_Management__getAnalyticsDataByMetrics",
+      "mcp__Metricool_Social_Media_Management__getAnalyticsAvailableMetrics",
+      "mcp__Metricool_Social_Media_Management__getBestTimeToPostByNetwork",
+      "mcp__Metricool_Social_Media_Management__getScheduledPosts",
+      "mcp__Metricool_Social_Media_Management__createScheduledPost",
+      "mcp__Metricool_Social_Media_Management__updateScheduledPost",
+      "Artifact",
+      "SendUserFile",
+      "Write",
+      "Edit"
+    ]
+  }
+}
